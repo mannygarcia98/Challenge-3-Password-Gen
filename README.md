@@ -1,4 +1,16 @@
-# Password Generator Starter Code
+# Password Generator
+
+A simple password generator that gathers the user's password criteria through a series of browser prompts.
+
+![](./assets/firstprompt.png)
+![](./assets/generatedpassword.png)
+
+## Challenges
+
+In this challenge I had to use what we learned about JavaScript in this past week's module to generate a random password that can differ greatly depending on the user's answers to the prompts. Creating the prompts and combining the users selected characters together into an array was straightforward. I was honestly stumped when it came time to actually get the program to gather random characters from the selectedChar array. I knew I would need to use math.random eventually, but I wasn't entirely sure how to get it to work with an array. I ended up going with a for loop that will 'grab' one character from an selectedChar array at a time and repeat until it had enough characters to meet the users password length request. These characters were then added to a password array and converted to a string using the join method.
+
+The deployed application can be found [here](https://mannygarcia98.github.io/Challenge-3-Password-Gen/).
+<br>Below are the challenge requirements.
 
 ## User Story
 
